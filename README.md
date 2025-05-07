@@ -1,1 +1,1 @@
-This is the official repository of the IEEE S&P 2025 paper [**On the Effectiveness of Prompt Stealing Attacks on In-The-Wild Prompts**]() by Yicong Tan.
+This is the official repository of the IEEE S&P 2025 paper [**On the Effectiveness of Prompt Stealing Attacks on In-The-Wild Prompts**](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a355/26hiTFMb8eQ) by Yicong Tan.
