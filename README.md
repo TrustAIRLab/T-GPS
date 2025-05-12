@@ -34,7 +34,7 @@ python gradient_attack.py --max_rounds 6 --max_workers 16 --beam_size 4 --model 
 | `--beam_size` | 4 | Controls how many top candidate prompts to keep at each step of the optimization (beam search). Higher values explore more possibilities but increase computational cost. |
 | `--model` | 'gpt-3.5-turbo-0125' | Specifies which OpenAI model to target for the prompt stealing attack.|
 | `--round` | 'r1' | A label for the repeating experimental run, useful for organizing outputs from different repeating attack attempts.  |
-| `--data_path` | 'PromptRecovery/data/in_the_wild_prompts/in_the_wild_filter_prompt2output_test.json' | The directory containing target prompt-response pairs to attempt recovery on. We list In-The-Wild, Awesome-GPT-Prompts, and the defense examples in the data folder.|
+| `--data_path` | '...in_the_wild_filter_prompt2output_test.json' | The directory containing target prompt-response pairs to attempt recovery on. We list In-The-Wild, Awesome-GPT-Prompts, and the defense examples in the data folder.|
 | `--save_dict_path` | 'results' | Directory where the recovered prompts will be saved (in JSON format). |
 | `--save_log_path` | 'logs/attack_log.md' | File path for the attack's execution log, saved in Markdown format with timestamps as configured in the setup_logger function. |
 
