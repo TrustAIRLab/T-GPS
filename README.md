@@ -41,6 +41,7 @@ python gradient_attack.py --max_rounds 6 --max_workers 16 --beam_size 4 --model 
 
 ## TO DO
 
+- [ ] Docker Image for Easy Use
 - [ ] Prompt Analysis.
 - [ ] Evaluation Process.
 - [ ] Implementation of Existing Attacks.
