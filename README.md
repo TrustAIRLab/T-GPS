@@ -38,10 +38,3 @@ python gradient_attack.py --max_rounds 6 --max_workers 16 --beam_size 4 --model 
 | `--save_dict_path` | 'results' | Directory where the recovered prompts will be saved (in JSON format). |
 | `--save_log_path` | 'logs/attack_log.md' | File path for the attack's execution log, saved in Markdown format with timestamps as configured in the setup_logger function. |
 
-
-## TO DO
-
-- [ ] Docker Image for Easy Use
-- [ ] Prompt Analysis.
-- [ ] Evaluation Process.
-- [ ] Implementation of Existing Attacks.
